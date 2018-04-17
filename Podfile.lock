@@ -1,0 +1,19 @@
+PODS:
+  - CTMediator (13)
+  - MediatorReservationModuleCategory (1):
+    - CTMediator
+
+DEPENDENCIES:
+  - MediatorReservationModuleCategory (from `../MediatorReservationModuleCategory`)
+
+EXTERNAL SOURCES:
+  MediatorReservationModuleCategory:
+    :path: ../MediatorReservationModuleCategory
+
+SPEC CHECKSUMS:
+  CTMediator: 4cbf8ede42efc6b31715be88b78bdc9d94efa840
+  MediatorReservationModuleCategory: 198b47767b784775fe264545b336bacdd5b7fdd2
+
+PODFILE CHECKSUM: cc9dfb22b0577e313c23f69ba72dee4848bf2ee4
+
+COCOAPODS: 1.3.1
