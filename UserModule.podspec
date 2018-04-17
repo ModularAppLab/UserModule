@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "UserModule"
-  s.version      = "2"
+  s.version      = "v1.1"
   s.summary      = "UserModule."
 
   # This description is used to generate tags and improve search results.
