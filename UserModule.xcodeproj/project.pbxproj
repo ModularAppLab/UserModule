@@ -9,27 +9,27 @@
 /* Begin PBXBuildFile section */
 		291E80311E2ABCCD269A7E8E /* libPods-UserModule.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4D6E03BE66DE33FDD093B6A /* libPods-UserModule.a */; };
 		582452E92085A571001E6737 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 582452E82085A571001E6737 /* AppDelegate.m */; };
-		582452EC2085A571001E6737 /* YHUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 582452EB2085A571001E6737 /* YHUserViewController.m */; };
 		582452EF2085A571001E6737 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582452ED2085A571001E6737 /* Main.storyboard */; };
 		582452F12085A571001E6737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582452F02085A571001E6737 /* Assets.xcassets */; };
 		582452F42085A571001E6737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582452F22085A571001E6737 /* LaunchScreen.storyboard */; };
 		582452F72085A571001E6737 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 582452F62085A571001E6737 /* main.m */; };
-		582453992085DD1A001E6737 /* UserModuleTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 582453982085DD1A001E6737 /* UserModuleTarget.m */; };
+		5858D42420876BD5008AE297 /* UserModuleTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 5858D42120876BD5008AE297 /* UserModuleTarget.m */; };
+		5858D42520876BD5008AE297 /* YHUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5858D42320876BD5008AE297 /* YHUserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		582452E42085A571001E6737 /* UserModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		582452E72085A571001E6737 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		582452E82085A571001E6737 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		582452EA2085A571001E6737 /* YHUserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YHUserViewController.h; sourceTree = "<group>"; };
-		582452EB2085A571001E6737 /* YHUserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHUserViewController.m; sourceTree = "<group>"; };
 		582452EE2085A571001E6737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		582452F02085A571001E6737 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		582452F32085A571001E6737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		582452F52085A571001E6737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		582452F62085A571001E6737 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		582453972085DD1A001E6737 /* UserModuleTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModuleTarget.h; sourceTree = "<group>"; };
-		582453982085DD1A001E6737 /* UserModuleTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModuleTarget.m; sourceTree = "<group>"; };
+		5858D41F20876BD5008AE297 /* YHUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUserViewController.h; sourceTree = "<group>"; };
+		5858D42120876BD5008AE297 /* UserModuleTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModuleTarget.m; sourceTree = "<group>"; };
+		5858D42220876BD5008AE297 /* UserModuleTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModuleTarget.h; sourceTree = "<group>"; };
+		5858D42320876BD5008AE297 /* YHUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHUserViewController.m; sourceTree = "<group>"; };
 		5E597AAC408CC676A31664F8 /* Pods-UserModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserModule/Pods-UserModule.debug.xcconfig"; sourceTree = "<group>"; };
 		C4D6E03BE66DE33FDD093B6A /* libPods-UserModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UserModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A3D22DA3206A37C6CB811F /* Pods-UserModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserModule/Pods-UserModule.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,11 +68,9 @@
 		582452E62085A571001E6737 /* UserModule */ = {
 			isa = PBXGroup;
 			children = (
-				582453962085DD1A001E6737 /* Targets */,
+				5858D41E20876BD5008AE297 /* UserModule */,
 				582452E72085A571001E6737 /* AppDelegate.h */,
 				582452E82085A571001E6737 /* AppDelegate.m */,
-				582452EA2085A571001E6737 /* YHUserViewController.h */,
-				582452EB2085A571001E6737 /* YHUserViewController.m */,
 				582452ED2085A571001E6737 /* Main.storyboard */,
 				582452F02085A571001E6737 /* Assets.xcassets */,
 				582452F22085A571001E6737 /* LaunchScreen.storyboard */,
@@ -82,14 +80,24 @@
 			path = UserModule;
 			sourceTree = "<group>";
 		};
-		582453962085DD1A001E6737 /* Targets */ = {
+		5858D41E20876BD5008AE297 /* UserModule */ = {
 			isa = PBXGroup;
 			children = (
-				582453972085DD1A001E6737 /* UserModuleTarget.h */,
-				582453982085DD1A001E6737 /* UserModuleTarget.m */,
+				5858D42020876BD5008AE297 /* Targets */,
+				5858D41F20876BD5008AE297 /* YHUserViewController.h */,
+				5858D42320876BD5008AE297 /* YHUserViewController.m */,
+			);
+			path = UserModule;
+			sourceTree = "<group>";
+		};
+		5858D42020876BD5008AE297 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				5858D42120876BD5008AE297 /* UserModuleTarget.m */,
+				5858D42220876BD5008AE297 /* UserModuleTarget.h */,
 			);
 			path = Targets;
-			sourceTree = SOURCE_ROOT;
+			sourceTree = "<group>";
 		};
 		A9BFD5366172AA4A734E94C3 /* Frameworks */ = {
 			isa = PBXGroup;
@@ -119,8 +127,6 @@
 				582452E02085A571001E6737 /* Sources */,
 				582452E12085A571001E6737 /* Frameworks */,
 				582452E22085A571001E6737 /* Resources */,
-				1DBCCC852BF3248DD5DAFEAB /* [CP] Embed Pods Frameworks */,
-				5E5EF1A81221D671AD1A5A91 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -178,36 +184,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1DBCCC852BF3248DD5DAFEAB /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserModule/Pods-UserModule-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5E5EF1A81221D671AD1A5A91 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-UserModule/Pods-UserModule-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		EB666DAD5379E8614EADE95C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -233,9 +209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				582452EC2085A571001E6737 /* YHUserViewController.m in Sources */,
-				582453992085DD1A001E6737 /* UserModuleTarget.m in Sources */,
+				5858D42420876BD5008AE297 /* UserModuleTarget.m in Sources */,
 				582452F72085A571001E6737 /* main.m in Sources */,
+				5858D42520876BD5008AE297 /* YHUserViewController.m in Sources */,
 				582452E92085A571001E6737 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

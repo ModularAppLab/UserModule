@@ -6,6 +6,6 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'UserModule' do
  
-pod "MediatorReservationModuleCategory", :path => "../MediatorReservationModuleCategory"
+pod "MediatorReservationModuleCategory"
  
 end

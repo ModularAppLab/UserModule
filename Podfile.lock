@@ -1,19 +1,21 @@
 PODS:
   - CTMediator (13)
-  - MediatorReservationModuleCategory (1):
+  - MediatorReservationModuleCategory (1.0):
     - CTMediator
 
 DEPENDENCIES:
-  - MediatorReservationModuleCategory (from `../MediatorReservationModuleCategory`)
+  - MediatorReservationModuleCategory
 
-EXTERNAL SOURCES:
-  MediatorReservationModuleCategory:
-    :path: ../MediatorReservationModuleCategory
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - CTMediator
+  https://github.com/ModularAppLab/PrivatePods.git:
+    - MediatorReservationModuleCategory
 
 SPEC CHECKSUMS:
   CTMediator: 4cbf8ede42efc6b31715be88b78bdc9d94efa840
-  MediatorReservationModuleCategory: 198b47767b784775fe264545b336bacdd5b7fdd2
+  MediatorReservationModuleCategory: 26ca907f51dfcc2483940d4fdb2febd63d846323
 
-PODFILE CHECKSUM: cc9dfb22b0577e313c23f69ba72dee4848bf2ee4
+PODFILE CHECKSUM: 5ce87069b987241c8bfadb0bf1c53c0d3f6817d2
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.0
