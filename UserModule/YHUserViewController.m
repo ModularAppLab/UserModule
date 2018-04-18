@@ -24,9 +24,12 @@
 - (void)viewDidAppear:(BOOL)animated {
     [super viewDidAppear:animated];
     
+}
+
+
+- (IBAction)didSelectButton:(id)sender {
     UIViewController *reservationVC = [CTMediator restaurantViewControllerWithId:@"45"];
     [self presentViewController:reservationVC animated:YES completion:NULL];
 }
-
 
 @end
