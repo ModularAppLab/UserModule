@@ -7,7 +7,7 @@
 //
 
 #import "YHUserViewController.h"
-#import <Mediator+Reservation.h>
+#import <MediatorReservationModuleCategory/Mediator+Reservation.h>
 
 @interface YHUserViewController ()
 
