@@ -11,7 +11,7 @@
 
 @implementation UserModuleTarget
 
-+ (UIViewController *)userViewControllerWithParams:(NSDictionary *)params {
+- (UIViewController *)userViewControllerWithParams:(NSDictionary *)params {
     
     YHUserViewController *vc = [[YHUserViewController alloc] init];
     vc.userId = params[@"userId"];
