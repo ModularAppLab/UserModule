@@ -13,8 +13,8 @@
 		582452F12085A571001E6737 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 582452F02085A571001E6737 /* Assets.xcassets */; };
 		582452F42085A571001E6737 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 582452F22085A571001E6737 /* LaunchScreen.storyboard */; };
 		582452F72085A571001E6737 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 582452F62085A571001E6737 /* main.m */; };
-		5858D42B20883377008AE297 /* UserModuleTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 5858D42720883376008AE297 /* UserModuleTarget.m */; };
-		5858D42C20883377008AE297 /* YHUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5858D42920883376008AE297 /* YHUserViewController.m */; };
+		5858D433208836F7008AE297 /* UserModuleTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 5858D430208836F7008AE297 /* UserModuleTarget.m */; };
+		5858D434208836F7008AE297 /* YHUserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5858D432208836F7008AE297 /* YHUserViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,10 +26,10 @@
 		582452F32085A571001E6737 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		582452F52085A571001E6737 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		582452F62085A571001E6737 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5858D42720883376008AE297 /* UserModuleTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModuleTarget.m; sourceTree = "<group>"; };
-		5858D42820883376008AE297 /* UserModuleTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModuleTarget.h; sourceTree = "<group>"; };
-		5858D42920883376008AE297 /* YHUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHUserViewController.m; sourceTree = "<group>"; };
-		5858D42A20883376008AE297 /* YHUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUserViewController.h; sourceTree = "<group>"; };
+		5858D42E208836F7008AE297 /* YHUserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHUserViewController.h; sourceTree = "<group>"; };
+		5858D430208836F7008AE297 /* UserModuleTarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserModuleTarget.m; sourceTree = "<group>"; };
+		5858D431208836F7008AE297 /* UserModuleTarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserModuleTarget.h; sourceTree = "<group>"; };
+		5858D432208836F7008AE297 /* YHUserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHUserViewController.m; sourceTree = "<group>"; };
 		5E597AAC408CC676A31664F8 /* Pods-UserModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UserModule/Pods-UserModule.debug.xcconfig"; sourceTree = "<group>"; };
 		C4D6E03BE66DE33FDD093B6A /* libPods-UserModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UserModule.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A3D22DA3206A37C6CB811F /* Pods-UserModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UserModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-UserModule/Pods-UserModule.release.xcconfig"; sourceTree = "<group>"; };
@@ -68,9 +68,7 @@
 		582452E62085A571001E6737 /* UserModule */ = {
 			isa = PBXGroup;
 			children = (
-				5858D42620883376008AE297 /* Targets */,
-				5858D42A20883376008AE297 /* YHUserViewController.h */,
-				5858D42920883376008AE297 /* YHUserViewController.m */,
+				5858D42D208836F7008AE297 /* UserModule */,
 				582452E72085A571001E6737 /* AppDelegate.h */,
 				582452E82085A571001E6737 /* AppDelegate.m */,
 				582452ED2085A571001E6737 /* Main.storyboard */,
@@ -82,11 +80,21 @@
 			path = UserModule;
 			sourceTree = "<group>";
 		};
-		5858D42620883376008AE297 /* Targets */ = {
+		5858D42D208836F7008AE297 /* UserModule */ = {
 			isa = PBXGroup;
 			children = (
-				5858D42720883376008AE297 /* UserModuleTarget.m */,
-				5858D42820883376008AE297 /* UserModuleTarget.h */,
+				5858D42F208836F7008AE297 /* Targets */,
+				5858D42E208836F7008AE297 /* YHUserViewController.h */,
+				5858D432208836F7008AE297 /* YHUserViewController.m */,
+			);
+			path = UserModule;
+			sourceTree = "<group>";
+		};
+		5858D42F208836F7008AE297 /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				5858D430208836F7008AE297 /* UserModuleTarget.m */,
+				5858D431208836F7008AE297 /* UserModuleTarget.h */,
 			);
 			path = Targets;
 			sourceTree = "<group>";
@@ -201,9 +209,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5858D42B20883377008AE297 /* UserModuleTarget.m in Sources */,
+				5858D433208836F7008AE297 /* UserModuleTarget.m in Sources */,
 				582452F72085A571001E6737 /* main.m in Sources */,
-				5858D42C20883377008AE297 /* YHUserViewController.m in Sources */,
+				5858D434208836F7008AE297 /* YHUserViewController.m in Sources */,
 				582452E92085A571001E6737 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
