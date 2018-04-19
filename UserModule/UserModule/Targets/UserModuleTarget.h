@@ -10,6 +10,6 @@
 
 @interface UserModuleTarget : NSObject
 
-+ (UIViewController *)userViewControllerWithId:(NSString *)userId;
++ (UIViewController *)userViewControllerWithParams:(NSDictionary *)params;
 
 @end

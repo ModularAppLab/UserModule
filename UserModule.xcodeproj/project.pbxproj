@@ -93,8 +93,8 @@
 		5858D42F208836F7008AE297 /* Targets */ = {
 			isa = PBXGroup;
 			children = (
-				5858D430208836F7008AE297 /* UserModuleTarget.m */,
 				5858D431208836F7008AE297 /* UserModuleTarget.h */,
+				5858D430208836F7008AE297 /* UserModuleTarget.m */,
 			);
 			path = Targets;
 			sourceTree = "<group>";

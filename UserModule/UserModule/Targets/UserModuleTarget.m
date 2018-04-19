@@ -11,10 +11,10 @@
 
 @implementation UserModuleTarget
 
-+ (UIViewController *)userViewControllerWithId:(NSString *)userId {
++ (UIViewController *)userViewControllerWithParams:(NSDictionary *)params {
     
     YHUserViewController *vc = [[YHUserViewController alloc] init];
-    vc.userId = userId;
+    vc.userId = params[@"userId"];
     return vc;
 }
 
